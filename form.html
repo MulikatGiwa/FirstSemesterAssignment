@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./Assets/Styles/form.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav" id="Top">
+        <a href="../">About Me</a>
+        <a href="./">Form</a>
+        <a href="./table.html">Table</a>
+        <a href="./media.html">Media</a>
+      </nav>
+      <h1 class="h1">Form</h1>
+    </header>
+    <main class="main">
+      <div class="flex">
+        <section class="flex-item">
+          <div class="animate">
+            <p><i>Mulikat Giwa</i></p>
+            <p><i>ALT/SOE/024/1293</i></p>
+            <p><i>Front End Engineering, School of Engineering</i></p>
+            <p><i>Altschool Africa, Karatu Cohort, 2024.</i></p>
+          </div>
+          <div>
+            <h2>Altschool Africa Application Form</h2>
+          </div>
+          <div>
+            <img src="https://portal.altschoolafrica.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Ftalentql-inc%2Fimage%2Fupload%2Fv1703728439%2Fstudent-portal%2Facademic_zzg4hi.png&w=640&q=75" alt="">
+          </div>
+        </section>
+        <section class="flex-item">
+          <form>
+            <h2>Sign up</h2>
+            <p>Take the next steps to apply at AltSchool Africa</p>
+            <section class="grid-container">
+              <div class="grid-item item1">
+                <label
+                >First Name <br /><input
+                  type="text"
+                  placeholder="Enter first name"
+                  required
+              /></label>
+              </div>
+              <div class="grid-item item2">
+                <label
+                >Last Name <br /><input class="enter-info"
+                  type="text"
+                  placeholder="Enter last name"
+                  required
+                  bord
+              /></label>
+              </div>
+              <div class="grid-item item3">
+                <label
+                >Gender <br />
+                <input type="list" list="gender-options" placeholder="select gender" name="gender">
+                <datalist id="gender-options">
+                  </option>
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                </datalist>
+              </label>
+              </div>
+              <div class="grid-item item4">
+                <label
+                >Date of Birth <br />
+                <input type="date" required
+              /></label>
+              </div>
+              <div class="grid-item item5">
+                <label
+                >Email Address <br />
+                <input type="email" placeholder="Enter email address" required
+              /></label>
+              </div>
+              <div class="grid-item item6">
+                <label
+                >Phone Number <br />
+                <input type="text" placeholder="08154387000" required
+              /></label>
+              </div>
+              <div class="grid-item item7">
+                <label
+                >Country <br />
+                <input type="list" list="country-options" placeholder="select country" name="country">
+                <datalist id="country-options">
+                  </option>
+                  <option value="Afghanistan">Afghanistan</option>
+                  <option value="Albania">Albania</option>
+                  <option value="Algeria">Algeria</option>
+                  <option value="China">China</option>
+                  <option value="Fiji">Fiji</option>
+                  <option value="Ghana">Ghana</option>
+                  <option value="Nigeria">Nigeria</option>
+                </datalist>
+              </label>
+              </div>
+              <div class="grid-item item8">
+                <label
+                >State/City of Residence <br />
+                <input
+                  type="text"
+                  placeholder="Enter your state of residence"
+                  required
+              /></label>
+              </div>
+              <div class="grid-item item9">
+                <label
+                >How did you hear about us? <br />
+                <input type="list" list="channel-options" placeholder="select channel" name="channel">
+                <datalist id="channel-options">
+                  </option>
+                  <option value="Twitter">Twitter</option>
+                  <option value="Facebook">Facebook</option>
+                  <option value="Linkedin">Linkedin</option>
+                  <option value="youtube">Youtube</option>
+                  <option value="Friend">friend</option>
+                  <option value="WhatsApp">WhatsApp</option>
+                  <option value="Instagram">Instagram</option>
+                  <option value="Bill Board">Bill Board</option>
+                </datalist>
+              </label>
+              </div>
+              <div class="grid-item item10">
+                <label
+                >Password <br />
+                <input type="password" placeholder="Enter password" required
+              /></label>
+              </div>
+              <div class="grid-item item11">
+                <label
+                >Confirm Password <br />
+                <input
+                  type="password"
+                  placeholder="Enter password again"
+                  required
+              /></label>
+              </div>
+            </section>
+            <div>
+              <p>
+                By clicking continue, I agree to
+                <a href="https://altschoolafrica.com/terms-and-conditions"
+                  >Terms of Use</a
+                >
+                and acknowledge that I have read the
+                <a href="https://altschoolafrica.com/privacy-policy"
+                  >Privacy Policy.</a
+                >
+              </p>
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <nav class="nav">
+          <a href="#Top">Go to Top</a>
+      </nav>
+  </footer>
+  </body>
+</html>
